@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: $white;
+    color: $black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.app {
+    flex: 1;
+    border: 1.5rem solid $contrast; 
+}
+
+.bg-black {
+    background: $black;
+    color: $white;
+}
+
+.bg-white {
+    background: $white;
+}
+
+.container--overSized {
+    max-width: 1340px;
+    margin: auto;
+    padding: 100px;
+}
+
+.negativeTopMargin {
+    margin-top: -10rem;
+}
+
+a {
+    color: $contrast;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    margin-left: 1.5rem;
+}
