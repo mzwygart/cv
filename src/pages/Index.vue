@@ -10,8 +10,10 @@
           </div>
           <div class="col-md-5 offset-md-1">
             <h2>Développeur front-end</h2>
-            <ul>
-              <li>HTML</li>
+            <Check class="icon" />
+
+            <ul class="listCheck">
+              <li>{{Skills.developerSkills}}</li>
               <li>CSS</li>
               <li>JavaScript</li>
               <li>Performance</li>
@@ -25,7 +27,7 @@
 
           <div class="col-md-5">
             <h2>UI designer</h2>
-            <ul>
+            <ul class="listCheck">
               <li>Wireframe</li>
               <li>Workflow</li>
               <li>Prototype</li>
@@ -90,14 +92,23 @@
 <script>
 import Banner from '~/components/Banner.vue'
 import TimelineItem from '~/components/TimelineItem.vue'
+import Check from '~/assets/icons/Check.svg'
+
+import Skills from '~/data/Skills.json'
 
 export default {
+  data () {
+    return {
+      Skills
+    }
+  },
   metaInfo: {
     title: 'Hello, world!'
   },
   components: {
     Banner,
     TimelineItem,
+    Check
   }
 }
 </script>

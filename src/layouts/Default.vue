@@ -47,10 +47,12 @@ query {
 
 <script>
 import Menu from '~/components/Menu.vue'
+import Check from '~/assets/icons/Check.svg'
 
 export default {
   components: {
-    Menu
+    Menu,
+    Check
   }
 }
 </script>

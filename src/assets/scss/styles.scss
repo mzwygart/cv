@@ -3,6 +3,7 @@
 
 @import './config/_variables';
 @import './config/_utility';
+@import './config/_base';
+@import './config/_typography';
 
-@import './library/_base';
-@import './library/_typography';
+@import './components/_listCheck';
