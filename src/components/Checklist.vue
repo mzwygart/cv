@@ -1,6 +1,6 @@
 <template>
     <ul class="checklist">
-        <li v-for="item in items"><CheckIcon class="icon" />{{ item }}</li>
+        <li v-bind:key="item" v-for="item in items"><CheckIcon class="icon" />{{ item }}</li>
     </ul>
 </template>
 

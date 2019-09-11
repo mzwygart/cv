@@ -29,13 +29,8 @@
           <div class="col-12 col-md-10 offset-md-1">
             <h1>Mon parcours</h1>
 
-            <div class="timelineItem__wrapper clearfix">
-              <timeline-item date="2018" title="SAWI">Intérvant pour la formation "Création de thème WordPress" de Procom</timeline-item>
-              <timeline-item date="2016" title="8bitstudio">Hello</timeline-item>
-              <timeline-item date="2014" title="Base7booking">Hello</timeline-item>
-              <timeline-item date="2012" title="Suisseo">Hello</timeline-item>
-              <timeline-item date="2009" title="Solugest">Hello</timeline-item>
-            </div>
+            <Timeline :entries="ProfessionalExperiences.entries" />
+
           </div>
         </div>
       </div>
@@ -46,6 +41,8 @@
         <div class="row">
           <div class="col-12 col-md-10 offset-md-1">
             <h1>Mes réalisations</h1>
+
+            <Portfolio :projects="Projects.entries" />
           </div>
         </div>
       </div>
@@ -73,15 +70,20 @@
 
 <script>
 import Banner from '~/components/Banner.vue'
-import TimelineItem from '~/components/TimelineItem.vue'
 import Checklist from '~/components/Checklist.vue'
+import Timeline from '~/components/Timeline.vue'
+import Portfolio from '~/components/Portfolio.vue'
 
 import Skills from '~/data/Skills.json'
+import ProfessionalExperiences from '~/data/ProfessionalExperiences.json'
+import Projects from '~/data/Projects.json'
 
 export default {
   data () {
     return {
-      Skills
+      Skills,
+      ProfessionalExperiences,
+      Projects
     }
   },
   metaInfo: {
@@ -89,8 +91,9 @@ export default {
   },
   components: {
     Banner,
-    TimelineItem,
-    Checklist
+    Checklist,
+    Timeline,
+    Portfolio
   }
 }
 </script>

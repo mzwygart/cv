@@ -1,14 +1,16 @@
 <template>
-    <div class="timelineItem">
-        <h2 class="timelineItem__title">{{title}}</h2>
-        <time class="timelineItem__date">{{date}}</time>
-        <p><slot></slot></p>
+    <div class="timelineItem__wrapper clearfix">
+        <div v-bind:key="entry" v-for="entry in entries" class="timelineItem">
+            <h2 class="timelineItem__title">{{ entry.title }}</h2>
+            <time class="timelineItem__date">{{ entry.year }}</time>
+            <p>{{ entry.description }}</p>
+        </div>
     </div>
 </template>
 
 <script>
-    module.exports = {
-        props: ['title', 'date']
+    export default {
+        props: ['entries']
     }
 </script>
 
