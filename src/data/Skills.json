@@ -1,9 +1,21 @@
 {"developerSkills": [
     "HTML",
-    "CSS"
+    "CSS",
+    "JavaScript",
+    "Performance",
+    "SEO",
+    "Accessibilité",
+    "Newsletter",
+    "Versioning",
+    "Automatisation"
 ],
 "designerSkills": [
-    "Photoshop",
-    "Illustrator"
+    "Wireframes",
+    "Workflows",
+    "Prototypes",
+    "Design systems",
+    "Accessibilité",
+    "Applications mobile",
+    "Applications web"
 ]
 }

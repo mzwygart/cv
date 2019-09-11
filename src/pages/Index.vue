@@ -10,32 +10,14 @@
           </div>
           <div class="col-md-5 offset-md-1">
             <h2>Développeur front-end</h2>
-            <Check class="icon" />
 
-            <ul class="listCheck">
-              <li>{{Skills.developerSkills}}</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Performance</li>
-              <li>SEO</li>
-              <li>Accessibilité</li>
-              <li>Newsletter</li>
-              <li>Versioning</li>
-              <li>Automatisation</li>
-            </ul>
+            <Checklist :items="Skills.developerSkills" />
           </div>
 
           <div class="col-md-5">
             <h2>UI designer</h2>
-            <ul class="listCheck">
-              <li>Wireframe</li>
-              <li>Workflow</li>
-              <li>Prototype</li>
-              <li>Design system</li>
-              <li>Design mobile</li>
-              <li>Accessibilité</li>
-              <li>Design d'application web</li>
-            </ul>
+
+            <Checklist :items="Skills.designerSkills" />
           </div>
         </div>
       </div>
@@ -92,7 +74,7 @@
 <script>
 import Banner from '~/components/Banner.vue'
 import TimelineItem from '~/components/TimelineItem.vue'
-import Check from '~/assets/icons/Check.svg'
+import Checklist from '~/components/Checklist.vue'
 
 import Skills from '~/data/Skills.json'
 
@@ -108,7 +90,7 @@ export default {
   components: {
     Banner,
     TimelineItem,
-    Check
+    Checklist
   }
 }
 </script>
