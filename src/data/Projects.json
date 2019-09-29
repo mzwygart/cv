@@ -1,8 +1,38 @@
 {"entries": [
     {
-        "title": "SAWI",
-        "url": "2018",
-        "description": "Intérvant pour la formation \"Création de thème WordPress\" de Procom"
+        "title": "Quel joueur êtes-vous?",
+        "url": "https://www.lesyeuxdesenfants.com",
+        "description": "Intégration WordPress d'une plateforme de question/réponse. Une attention particulière a été portée à l'accessibilité."
+    },
+    {
+        "title": "Les yeux des enfants",
+        "url": "https://www.lesyeuxdesenfants.com",
+        "description": "Intégration WordPress d'une plateforme de question/réponse. Une attention particulière a été portée à l'accessibilité."
+    },
+    {
+        "title": "TEDxLausanne",
+        "url": "https://www.tedxlausanne.com",
+        "description": "Conception, design et intégration WordPress du site de l'association. Mise en place d'un page builder, affichage contextuel des évènements, liaisons entre les évènements et les conférenciers."
+    },
+    {
+        "title": "Forum EPFL",
+        "url": "https://www.forum-epfl.ch",
+        "description": "Conception et intégration WordPress du site du salon. Concéption et intégration de la plateforme de gestion."
+    },
+    {
+        "title": "CICG",
+        "url": "http://cicg.ch/fr/organisateur/votre-evenement/nos-prestations/informatique/application",
+        "description": "Concéption et design de l'application mobile."
+    },
+    {
+        "title": "Socol",
+        "url": "https://www.socol.ch",
+        "description": "Conception, design et intégration WordPress du site incluant un catalogue de produit."
+    },
+    {
+        "title": "Aspasie",
+        "url": "https://www.aspasie.ch",
+        "description": "Conception, design et intégration WordPress du site de l'association ainsi qu'un guide PDF éditable depuis WordPress en 8 langues."
     }
 ]
 }

@@ -3,7 +3,7 @@
         <div v-bind:key="entry" v-for="entry in entries" class="timelineItem">
             <h2 class="timelineItem__title">{{ entry.title }}</h2>
             <time class="timelineItem__date">{{ entry.year }}</time>
-            <p>{{ entry.description }}</p>
+            <p class="timelineItem__desc">{{ entry.description }}</p>
         </div>
     </div>
 </template>
@@ -79,6 +79,10 @@
                 vertical-align: middle;
                 margin-right: 1rem;
             }
+        }
+
+        &__desc {
+            white-space: pre-wrap;
         }
     }
 </style>
